@@ -1,10 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import streamifyImage from "@/assets/project-streamify.png";
-import tasksImage from "@/assets/project-tasks.jpg";
-import weatherImage from "@/assets/project-weather.jpg";
-import blogImage from "@/assets/project-blog.jpg";
-import cryptoImage from "@/assets/project-crypto.jpg";
-import socialImage from "@/assets/project-social.jpg";
+import resumeAnalyzer from '@/assets/project-resumeAnalyzer.png';
+import authenticationImage from '@/assets/project-authentication.png';
 
 const Projects = () => {
   const projects = [
@@ -17,45 +14,45 @@ const Projects = () => {
       liveLink: "https://streamify-ynfz.onrender.com/login",
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: tasksImage,
-      technologies: ["React", "TypeScript", "Socket.io", "MongoDB", "Express"],
-      githubLink: "https://github.com/johndoe/task-manager",
-      liveLink: "https://taskapp-demo.com",
+      title: "Ai Resume Analyzer",
+      description: "AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.",
+      image: resumeAnalyzer,
+      technologies: ["React", "TypeScript", "Puter Js", "Tailwind CSS", "Zustand"],
+      githubLink: "https://github.com/45Aditya/ai_resume_analyzer",
+      liveLink: "https://ai-resume-analyzer-delta-gules.vercel.app/",
     },
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current weather and forecasts for multiple cities with interactive charts and maps.",
-      image: weatherImage,
-      technologies: ["React", "Chart.js", "OpenWeather API", "CSS3", "JavaScript"],
-      githubLink: "https://github.com/johndoe/weather-dashboard",
-      liveLink: "https://weather-demo.com",
+      title: "User Authentication System",
+      description: "A comprehensive, production-ready authentication system built with modern web technologies. This project demonstrates a complete end-to-end implementation of user authentication, from backend API endpoints to a polished frontend interface.",
+      image: authenticationImage,
+      technologies: ["React", "Express.js", "MongoDB", "Tailwind CSS", "Mailtrap", "Node.js"],
+      githubLink: "https://github.com/45Aditya/user-auth-system",
+      liveLink: "https://github.com/45Aditya/user-auth-system",
     },
-    {
-      title: "Blog Platform",
-      description: "A modern blog platform with markdown support, SEO optimization, and content management system for writers and bloggers.",
-      image: blogImage,
-      technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL", "Vercel"],
-      githubLink: "https://github.com/johndoe/blog-platform",
-      liveLink: "https://blog-demo.com",
-    },
-    {
-      title: "Cryptocurrency Tracker",
-      description: "A real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
-      image: cryptoImage,
-      technologies: ["React", "Redux", "CoinGecko API", "Firebase", "Material-UI"],
-      githubLink: "https://github.com/johndoe/crypto-tracker",
-      liveLink: "https://crypto-demo.com",
-    },
-    {
-      title: "Social Media App",
-      description: "A full-featured social media application with posts, comments, likes, real-time messaging, and user profiles.",
-      image: socialImage,
-      technologies: ["React Native", "Node.js", "MongoDB", "Socket.io", "AWS S3"],
-      githubLink: "https://github.com/johndoe/social-app",
-      liveLink: "https://social-demo.com",
-    },
+    // {
+    //   title: "Blog Platform",
+    //   description: "A modern blog platform with markdown support, SEO optimization, and content management system for writers and bloggers.",
+    //   image: blogImage,
+    //   technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL", "Vercel"],
+    //   githubLink: "https://github.com/johndoe/blog-platform",
+    //   liveLink: "https://blog-demo.com",
+    // },
+    // {
+    //   title: "Cryptocurrency Tracker",
+    //   description: "A real-time cryptocurrency tracking application with portfolio management, price alerts, and market analysis tools.",
+    //   image: cryptoImage,
+    //   technologies: ["React", "Redux", "CoinGecko API", "Firebase", "Material-UI"],
+    //   githubLink: "https://github.com/johndoe/crypto-tracker",
+    //   liveLink: "https://crypto-demo.com",
+    // },
+    // {
+    //   title: "Social Media App",
+    //   description: "A full-featured social media application with posts, comments, likes, real-time messaging, and user profiles.",
+    //   image: socialImage,
+    //   technologies: ["React Native", "Node.js", "MongoDB", "Socket.io", "AWS S3"],
+    //   githubLink: "https://github.com/johndoe/social-app",
+    //   liveLink: "https://social-demo.com",
+    // },
   ];
 
   return (
